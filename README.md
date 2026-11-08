@@ -1,0 +1,2 @@
+# forsaken-script
+main forsaken
