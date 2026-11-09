@@ -24416,7 +24416,7 @@ return nil
 Tabs.Main1:AddButton({
     Title="Script nightsaken ",
     Callback=function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/nn9287896-cell/Script/refs/heads/main/Script.lua"))()
+       loadstring(game:HttpGet("https://flowauth.net/v1/loaders/89f6aa935f23a8faa41cbce2422b6ea8.lua"))()
     end
 })
    Tabs.Main1:AddButton({
@@ -24437,13 +24437,7 @@ Tabs.Main1:AddButton({
        loadstring(game:HttpGet("https://obfuscatorhub.lol/api/eternal"))()
     end
 })
-   Tabs.Main1:AddButton({
-       Title="Script hidder player day/game/time/killer/sống sốt v..v.. ",
-        Callback=function()
-         loadstring(game:HttpGet("https://robloxscripts.com/raw/forsaken-show-hidden-stats-of-other-players-october-2025?src=api"))()
 
-    end
-})
 Tabs.Main1:AddButton({
     Title="keyturn hub",
     Description="quocdung",
@@ -24452,6 +24446,28 @@ Tabs.Main1:AddButton({
     end
 })
 
+   Tabs.Main1:AddButton({
+       Title="Script autoblock/v1.3 ",
+        Callback=function()
+         --still in wip, but i release it for public testing--
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/randomforsakenscripter/script/refs/heads/main/Guest1337/AutoBlock/V1.3"))()
 
+    end
+})
+
+ Tabs.Main1:AddButton({
+       Title="Script turn hubv3",
+        Callback=function()
+       loadstring(game:HttpGet("https://obfuscatorhub.lol/api/turnsakenv3"))()
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title="keyturn hub",
+    Description="quocdung",
+    Callback=function()
+        setclipboard("TURNSAKEN-AB52-B693-B15F-4FC2")
+    end
+})
 
 
