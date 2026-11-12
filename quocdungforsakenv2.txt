@@ -24416,7 +24416,7 @@ return nil
 Tabs.Main1:AddButton({
     Title="Script nightsaken ",
     Callback=function()
-       loadstring(game:HttpGet("https://flowauth.net/v1/loaders/89f6aa935f23a8faa41cbce2422b6ea8.lua"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/duongisrlll/Nightsaken/refs/heads/main/Nightsaken"))()
     end
 })
    Tabs.Main1:AddButton({
@@ -24469,5 +24469,10 @@ Tabs.Main1:AddButton({
         setclipboard("TURNSAKEN-AB52-B693-B15F-4FC2")
     end
 })
-
+ Tabs.Main1:AddButton({
+       Title="Script skibisaken",
+        Callback=function()
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/nguyennguyenthanhhack-sys/081eaf3ff1e16b73718c569d18328696/raw/31556070f0a356f858ca513dce91062b9c18f7f3/skidsaken"))()
+    end
+})
 
