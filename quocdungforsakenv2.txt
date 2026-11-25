@@ -937,8 +937,54 @@ Tabs.Main1:AddButton({
     end
 })
  Tabs.Main1:AddButton({
-       Title="Script skibisaken",
+       Title="Script skibisaken1",
         Callback=function()
-       loadstring(game:HttpGet("https://gist.githubusercontent.com/nguyennguyenthanhhack-sys/491df2de2e921d9277350b4c8f6c8e9b/raw/bf9e7c0963b9fb4000a41a0794abe5d21ca1031f/skidsaken"))()
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/nguyennguyenthanhhack-sys/48e7b49ca0b1d5229fe071c8c8970005/raw/436188006f108f645e9afc8db65549e47c8c493c/skidsaken%2520v1.7"))()
+    end
+})
+ Tabs.Main1:AddButton({
+       Title="Script skibisaken2",
+        Callback=function()loadstring(game:HttpGet("https://gist.githubusercontent.com/nguyennguyenthanhhack-sys/be54509d24bcd7f688c66c833afffc08/raw/d56e559ed1a5ba59d0f8cf69c874291888b8f2cb/hi"))() 
+    end
+}) 
+ Tabs.Main1:AddButton({
+       Title="Script real hub",
+        Callback=function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTTJY/Studio.Hub/refs/heads/main/APIs/M.lua"))()
+    end
+})
+
+ Tabs.Main1:AddButton({
+       Title="Script turn hubv4.1",
+        Callback=function()
+       loadstring(game:HttpGet("https://cdn.luaprotect.dev/u/cc19a7/oPXxY_Bccy_WdACT"))() 
+    end
+})
+Tabs.Main1:AddButton({
+    Title="keyturn hub v4.1 p1",
+    Description="quocdung",
+    Callback=function()
+        setclipboard("TURN-67-key")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title="keyturn hub v4.1 p2",
+    Description="quocdung",
+    Callback=function()
+        setclipboard("TURN hub")
+    end
+})
+
+ Tabs.Main1:AddButton({
+       Title="flexsaken ",
+        Callback=function()
+       loadstring(game:HttpGet("https://flowauth.net/v1/loaders/97f9983b6c73748d8208490ed622b5c6.lua"))()
+    end
+})
+Tabs.Main1:AddButton({
+       Title="red1.com ",
+        Callback=function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/re1dsgamers-sys/loader/refs/heads/main/loader"))()
     end
 })
